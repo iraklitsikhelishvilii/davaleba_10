@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  background-color: #fafafa;
+  height: 762px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading_box {
+  width: 540px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+}
+.heading {
+  color: #4d4f62;
+  font-size: 36px;
+  font-weight: 275;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+h2 {
+  color: #4d4f62;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+p {
+  color: #4d4f62;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.104px;
+}
+.box {
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-top: 110px;
+}
+.double_box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.box_headings {
+  color: #4d4f62;
+  font-size: 24px;
+  font-weight: 600;
+}
+.box_paragraphs {
+  color: #4d4f62;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  text-align: left;
+}
+.img_box {
+  width: 350px;
+  display: flex;
+  justify-content: end;
+  padding-right: 32px;
+  padding-top: 35px;
+}
+.contant {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.light_blue::after {
+  content: "";
+  width: 350px;
+  height: 4px;
+  background-color: #44d3d2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: absolute;
+  border-radius: 8px;
+}
+.red::before {
+  content: "";
+  width: 350px;
+  height: 4px;
+  background-color: #ea5454;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: absolute;
+  border-radius: 8px;
+}
+.yellow::before {
+  content: "";
+  width: 350px;
+  height: 4px;
+  background-color: #fcae4a;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: absolute;
+  border-radius: 8px;
+}
+.blue::before {
+  content: "";
+  width: 350px;
+  height: 4px;
+  background-color: #549ef2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: absolute;
+  border-radius: 8px;
+}
